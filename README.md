@@ -1,3 +1,4 @@
 # maho-ya Support Page
-Support pages for the apps developed by maho-ya.
+Support pages for the Apps developed by maho-ya.
+
 https://maho-ya.github.io/
