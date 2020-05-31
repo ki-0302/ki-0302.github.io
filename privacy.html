@@ -9,7 +9,7 @@
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2 collapse">
       <a class="navbar-brand" href="#">Tell me your DPI?</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
       </div>
     </nav>    
  	  <section>
- 	    <div class="jumbotron text-center mt-2">
+ 	    <div class="jumbotron text-center">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -46,7 +46,7 @@
           <div class="col-12">           
             <p>"Tell me your DPI?" アプリ（以下当アプリ）は下記に定めるプライバシーポリシーに基づき、ユーザーの情報を収集することがあります。<br>
             当アプリを利用する場合、本プライバシーポリシーに同意いただいたものとします。</p>
-            <h2>収集する情報</h2>
+            <h2 id="aaa" class="collapse">収集する情報</h2>
             <p>アプリの改善のため利用者の端末の特定の情報を収集することがあります。<br>
             下記のサードパーティのサービスを利用して情報を収集しています。リンクより各プライバシーポリシーの確認ができます。<br>
             <ul>
@@ -78,7 +78,8 @@
           </div>
         </div>
       </div>
-    </section><!-- #BeginLibraryItem "/Library/Footer.lbi" --><hr>
+    </section><!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+    <hr>
     <footer class="text-center">
       <div class="container">
         <div class="row">
@@ -93,5 +94,17 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
-<!-- #EndLibraryItem --></body>
+<!-- #EndLibraryItem -->
+  
+    <script>
+      $(function () {
+        if (navigator.userAgent.indexOf('maho-ya') > -1) {
+          $('.navbar').collapse('hide')
+        } else {
+          $('.navbar').collapse('show')
+        }
+      })
+    </script>
+  
+  </body>
 </html>
