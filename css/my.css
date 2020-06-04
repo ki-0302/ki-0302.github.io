@@ -3,3 +3,7 @@ a.google-play img {
 	width: 250px;
 	height: auto;
 }
+
+li a {
+  padding: 10px
+}
