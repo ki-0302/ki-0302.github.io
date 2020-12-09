@@ -1,5 +1,5 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target" : { "namespace": "android_app", "package_name": "com.maho_ya.tell_me_your_dpi",
-               "sha256_cert_fingerprints": ["05:39:64:42:8D:61:EC:24:1E:24:06:86:D1:78:A6:C8:1D:9C:EB:03:AB:73:F7:AE:C6:08:C7:2B:5E:1F:2A:BE"] }
+               "sha256_cert_fingerprints": ["EC:C7:07:D3:59:EC:58:62:17:04:49:82:DF:E9:1B:26:49:D8:1F:B9:B3:3B:E8:8C:57:E9:CE:28:2D:1E:BB:B0"] }
 }]
