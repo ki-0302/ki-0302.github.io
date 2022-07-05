@@ -23,7 +23,9 @@
         {
             "date": "2022-04-04T08:00:00.000Z",
             "appVersion": "1.3",
-            "description": "Android 12に対応しました。"
+            "description": "次の対応を行いました。
+・Android 13に対応しました。
+・通知機能を追加しました。"
         }
     ]
 }
